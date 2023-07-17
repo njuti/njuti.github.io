@@ -1,4 +1,83 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/njuti/njuti.github.io/hugo-theme-learn/edit/master/exampleSite/content/"
+description = "Documentation for Hugo Learn Theme"
+  author = "Lingyun Situ"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+landingPageURL = "/en"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/matcornic/hugo-theme-learn"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
+
+[Languages.zh]
+title = "Hugo 主题的 Learn 文档"
+weight = 3
+languageName = "简体中文"
+landingPageURL = "/zh"
+landingPageName = "<i class='fas fa-home'></i> 家"
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub 仓库"
+identifier = "ds"
+url = "https://github.com/matcornic/hugo-theme-learn"
+weight = 10
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> 展示区"
+url = "/showcase"
+weight = 11
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo 文档"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> 鸣谢"
+url = "/credits"
+weight = 30
