@@ -40,19 +40,19 @@ params:
 menus:
   main:
     - name: "Home"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "Research"
+      url: "/research"
       weight: 2
 
-    - name: "Our team"
-      url: "/#"
+    - name: "Services"
+      url: "/services"
       weight: 3
 
-    - name: "Pricing"
-      url: "/#"
+    - name: "Teams"
+      url: "/teams"
       weight: 4
 
     - name: "Blog"
@@ -60,14 +60,14 @@ menus:
       weight: 5
 
   buttons:
-    - name: "Book a call"
+    - name: "Contact"
       url: "/#"
       weight: 5
       pre: "btn btn-primary text-light"
 
   footer:
     - name: "Home"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
     - name: "How we work"
