@@ -185,11 +185,11 @@ pluralizelisttitles = false
 #    url = "http://twitter.com"
 #    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:stly@nju.edu.cn"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+#[[menu.topbar]]
+#    weight = 5
+#    name = "Email"
+#    url = "mailto:stly@nju.edu.cn"
+#    pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
@@ -276,7 +276,7 @@ pluralizelisttitles = false
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
