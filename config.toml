@@ -1,8 +1,8 @@
-baseurl = "https://devcows.github.io" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "National Security Threat Intelligence Group"
+baseurl = "https://njuti.github.io/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "国家安全情报研究"
 theme = "hugo-universal-theme"
 themesDir = "themes"
-languageCode = "en-us"
+languageCode = "zh"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
@@ -26,41 +26,41 @@ pluralizelisttitles = false
 
 ## home
 [[menu.main]]
-    name       = "Home"
+    name       = "主页"
     identifier = "menu.home"
     url        = "/"
     weight     = 1
 
 
 ## news
-#[[menu.main]]
- #   name       = "News"
- #   identifier = "menu.news"
- #   url        = "/news/"
- #   weight     = 2
+[[menu.main]]
+    name       = "通知"
+    identifier = "menu.news"
+    url        = "/news/"
+    weight     = 2
 
 
 ## Research 
 [[menu.main]]
-    name       = "research"
+    name       = "科学研究"
     identifier = "menu.research"
     url        = "/"
     weight     = 3
 
 [[menu.main]]
-    name       = "NH Security"
+    name       = "南海疆域安全"
     url        = "/"
     weight     = 1
     parent     = "menu.research"
 
 [[menu.main]]
-    name       = "Cyberspace Security"
+    name       = "网络空间安全"
     url        = "/"
     weight     = 1
     parent     = "menu.research"
 
 [[menu.main]]
-    name       = "Domain Knowledge Engineering"
+    name       = "人工智能安全"
     url        = "/"
     weight     = 1
     parent     = "menu.research"
@@ -74,19 +74,19 @@ pluralizelisttitles = false
     weight     = 4
 
 [[menu.main]]
-    name       = "Option 1: Book"
+    name       = "书籍"
     url        = "/"
     weight     = 1
     parent     = "menu.publication"
 
 [[menu.main]]
-    name       = "Option 1: Journal"
+    name       = "期刊论文"
     url        = "/"
     weight     = 1
     parent     = "menu.publication"
 
 [[menu.main]]
-    name       = "Option 1: conference"
+    name       = "会议论文"
     url        = "/"
     weight     = 1
     parent     = "menu.publication"
@@ -94,25 +94,25 @@ pluralizelisttitles = false
 
 ## Services
 [[menu.main]]
-    name       = "Services"
+    name       = "全部服务"
     identifier = "menu.services"
     url        = "/"
     weight     = 5
 
 [[menu.main]]
-    name       = "Option 1: South China Sea"
+    name       = "技术洞察服务"
     url        = "/"
     weight     = 1
     parent     = "menu.services"
     
 [[menu.main]]
-    name       = "Option 1: Cyber Space Security"
+    name       = "漏洞情报服务"
     url        = "/"
     weight     = 1
     parent     = "menu.services"
 
 [[menu.main]]
-    name       = "Option 1: Domain Knowledge Management"
+    name       = "软件测评服务"
     url        = "/"
     weight     = 1
     parent     = "menu.services"
@@ -121,39 +121,47 @@ pluralizelisttitles = false
 
 ## Team
 [[menu.main]]
-    name       = "Team"
+    name       = "团队"
     identifier = "menu.team"
     url        = "/"
     weight     = 6
 
 [[menu.main]]
-    name       = "Option1: Our Team"
+    name       = "教师"
     url        = "/"
     weight     = 1
     parent     = "menu.team"
 
 [[menu.main]]
-    name       = "Option2: Photo"
+    name       = "博士"
     url        = ""
     weight     = 2
     parent     = "menu.team"
 
+[[menu.main]]
+    name       = "硕士"
+    url        = ""
+    weight     = 3
+    parent     = "menu.team"
+
+[[menu.main]]
+    name       = "本科"
+    url        = ""
+    weight     = 3
+    parent     = "menu.team"
+
 ## Blog
 [[menu.main]]
-    name       = "Blog"
+    name       = "文档"
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 7
 
-## Links
-[[menu.main]]
-    name       = "Links"
-    identifier = "menu.link"
-    url        = "/link/"
-    weight     = 8
+
+
 
 [[menu.main]]
-    identifier = "contact"
+    identifier = "加入我们"
     name       = "Contact"
     url        = "/contact/"
     weight     = 9
