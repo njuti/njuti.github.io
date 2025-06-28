@@ -1,0 +1,7 @@
+enable: true
+
+title: "Start your business now!"
+image: "images/services-web-development.png"
+button:
+  label: "Let's talk"
+  link: "#"

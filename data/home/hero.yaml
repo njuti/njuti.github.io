@@ -1,0 +1,13 @@
+enable: true
+
+title: "How to **level up** your business"
+text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+
+buttons:
+  - label: "How we work"
+    link: "#"
+
+  - label: "Let's talk"
+    link: ""
+
+image: "images/hero-image.png"
