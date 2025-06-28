@@ -3,44 +3,60 @@ main:
     url: "/#hero"
     weight: 1
 
-  - name: "How we work"
-    url: "/#"
+  - name: "Research"
+    url: "/#cta"
     weight: 2
 
-  - name: "Our team"
-    url: "/#"
+  - name: "Publications"
+    url: "/#services"
     weight: 3
 
-  - name: "Pricing"
+  - name: "Products"
     url: "/#"
     weight: 4
 
-  - name: "Blog"
-    url: "/blog"
-    weight: 5
-
-buttons:
-  - name: "Book a call"
+  - name: "Services"
     url: "/#"
     weight: 5
+
+  - name: "Teams"
+    url: "/#"
+    weight: 6
+
+  - name: "Blog"
+    url: "/blog"
+    weight: 7
+
+buttons:
+  - name: "Contact"
+    url: "/#"
+    weight: 8
 
 footer:
   - name: "Home"
     url: "/#hero"
     weight: 1
 
-  - name: "How we work"
+  - name: "Research"
     url: "/#"
     weight: 2
 
-  - name: "Our team"
+  - name: "Publications"
     url: "/#"
     weight: 3
 
-  - name: "Pricing"
+  - name: "Products"
     url: "/#"
     weight: 4
 
+  - name: "Services"
+    url: "/#"
+    weight: 5
+
+  - name: "Teams"
+    url: "/#"
+    weight: 6
+
   - name: "Blog"
     url: "/blog"
-    weight: 5
+    weight: 7
