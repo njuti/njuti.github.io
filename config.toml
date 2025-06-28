@@ -47,23 +47,23 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 3
 
-[[menu.main]]
-    name       = "南海疆域安全"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.research"
+##[[menu.main]]
+##    name       = "南海疆域安全"
+ ##   url        = "/"
+ ##   weight     = 1
+ ##   parent     = "menu.research"
 
-[[menu.main]]
-    name       = "网络空间安全"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.research"
+##[[menu.main]]
+##    name       = "网络空间安全"
+ ##   url        = "/"
+ ##   weight     = 1
+ ##   parent     = "menu.research"
 
-[[menu.main]]
-    name       = "人工智能安全"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.research"
+##[[menu.main]]
+##    name       = "人工智能安全"
+##    url        = "/"
+ ##   weight     = 1
+ ##   parent     = "menu.research"
 
 
 ## Publicaiton 
@@ -73,23 +73,23 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 4
 
-[[menu.main]]
-    name       = "书籍"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.publication"
+##[[menu.main]]
+ ##   name       = "书籍"
+ ##   url        = "/"
+ ##   weight     = 1
+ ##   parent     = "menu.publication"
 
-[[menu.main]]
-    name       = "期刊论文"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.publication"
+##[[menu.main]]
+ ##   name       = "期刊论文"
+ ##   url        = "/"
+ ##   weight     = 1
+##  parent     = "menu.publication"
 
-[[menu.main]]
-    name       = "会议论文"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.publication"
+#[[menu.main]]
+ ##   name       = "会议论文"
+ ##   url        = "/"
+ ##   weight     = 1
+ ##   parent     = "menu.publication"
 
 
 ## Services
@@ -99,23 +99,23 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 5
 
-[[menu.main]]
-    name       = "技术洞察服务"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.services"
+#[[menu.main]]
+#    name       = "技术洞察服务"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.services"
     
-[[menu.main]]
-    name       = "漏洞情报服务"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.services"
+#[[menu.main]]
+#    name       = "漏洞情报服务"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.services"
 
-[[menu.main]]
-    name       = "软件测评服务"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.services"
+#[[menu.main]]
+#    name       = "软件测评服务"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.services"
 
 
 
@@ -126,29 +126,29 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 6
 
-[[menu.main]]
-    name       = "教师"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.team"
+#[[menu.main]]
+#    name       = "教师"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.team"
 
-[[menu.main]]
-    name       = "博士"
-    url        = ""
-    weight     = 2
-    parent     = "menu.team"
+#[[menu.main]]
+#    name       = "博士"
+#    url        = ""
+#    weight     = 2
+#    parent     = "menu.team"
 
-[[menu.main]]
-    name       = "硕士"
-    url        = ""
-    weight     = 3
-    parent     = "menu.team"
+#[[menu.main]]
+#    name       = "硕士"
+#    url        = ""
+#    weight     = 3
+#    parent     = "menu.team"
 
-[[menu.main]]
-    name       = "本科"
-    url        = ""
-    weight     = 3
-    parent     = "menu.team"
+#[[menu.main]]
+#    name       = "本科"
+#    url        = ""
+#    weight     = 3
+#    parent     = "menu.team"
 
 ## Blog
 [[menu.main]]
@@ -158,10 +158,8 @@ pluralizelisttitles = false
     weight     = 7
 
 
-
-
 [[menu.main]]
-    identifier = "加入我们"
+    identifier = "联系"
     name       = "Contact"
     url        = "/contact/"
     weight     = 9
@@ -201,10 +199,10 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Lingyun Situ"
+    defaultKeywords = ["Lingyun Situ", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    #defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
     #facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -212,14 +210,14 @@ pluralizelisttitles = false
     #default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    # enableGoogleMaps = true
+    # googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    #latitude = "-12.043333"
+    #longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "violet"
+    style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -252,11 +250,11 @@ pluralizelisttitles = false
     #   5. change `enableRecaptchaInContactForm` is to true
     #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
     #
-    enableRecaptchaInContactForm = false
-    googleRecaptchaKey = "site_key_for_google_recaptcha"
+    #enableRecaptchaInContactForm = false
+    #googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    #about_us = "<p>Nanjing University.</p>"
+    #copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -264,12 +262,12 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "Threat Intelligence Group"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
+    address = """<p class="text-uppercase"><strong>Threat Intelligence Group</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River
         <br>45Y 73J
